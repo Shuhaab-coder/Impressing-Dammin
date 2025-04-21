@@ -1,9 +1,7 @@
 import { Text, Button, View, Linking, StyleSheet, Image } from "react-native";
 import { useState } from "react";
-// import { View } from "react-native-web";
-// import { TextInput } from "react-native";
+
 export default function Introduction() {
-  // window.onload = function () {
   const [Name, SetName] = useState("Shuhaab U Zamman");
   const styles = StyleSheet.create({
     title: {
